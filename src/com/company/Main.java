@@ -14,7 +14,5 @@ public class Main {
 //        Triangle tritri = new Triangle(24,26,27);
 //        tritri.calculateArea();
 //        tritri.display();
-
-
     }
 }
