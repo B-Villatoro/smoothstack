@@ -12,8 +12,6 @@ public class StarPattern {
             System.out.println("How Would You Like to sort?\n" +
                     "Half Pyramid(1), Upside Down Half Pyramid(2), Pyramid(3), or Upside Down Pyramid(4)?");
             choice = Uinput.nextInt();
-
-
             switch (choice) {
                 case 1:
                     System.out.println("How many rows would you like?");

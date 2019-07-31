@@ -7,7 +7,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        StarPattern runStars = new StarPattern();
+//        StarPattern runStars = new StarPattern();
+
+        CommandLineAddition addNums = new CommandLineAddition();
 
     }
 }
