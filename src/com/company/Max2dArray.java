@@ -26,16 +26,20 @@ public class Max2dArray {
         }
 
         int maxNum = userArray[0][0];
+        int locationX = 0;
+        int locationY = 0;
 
         for(int i = 0; i < userArray.length; i++){
             for(int j = 0; j < userArray[i].length;j++){
                 if(userArray[i][j] > maxNum){
                     maxNum = userArray[i][j];
+                    locationX = i;
+                    locationY = j;
                 }
                 System.out.print(userArray[i][j]+" ");
             }
             System.out.println();
         }//end i for
-        System.out.println("\nYour max number is "+maxNum);
+        System.out.println("\nYour max number is "+maxNum+" and is located at ["+locationX+"] ["+locationY+"]");
     }
 }
