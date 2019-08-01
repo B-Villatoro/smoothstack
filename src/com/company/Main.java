@@ -1,9 +1,11 @@
 package com.company;
 
+import com.company.assignment3.CharacterCounter;
 import com.company.assignment3.FileManager;
 import com.company.interfaceShapes.Triangle;
 import com.company.interfaceShapes.iShapes;
 
+import java.io.File;
 import java.util.Scanner;
 
 
@@ -23,6 +25,13 @@ public class Main {
 //        tritri.calculateArea();
 //        tritri.display();
 
+        File testFile = new File("testFile.txt");
+
         FileManager files = new FileManager();
+
+        files.appendFile(testFile,"hello people");
+        new CharacterCounter(testFile,'d');
+//        files.createFile(testFile);
+
     }
 }

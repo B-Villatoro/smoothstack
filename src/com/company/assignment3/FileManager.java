@@ -30,18 +30,25 @@ public class FileManager {
         }
     }
 
+//    public void createFile(File fileName) throws IOException {
+//        try() {
+//            if (fileName.exists() == false) {
+//                fileName.createNewFile();
+//                System.out.println("The file has been created");
+//
+//            } else {
+//                System.out.println("File already exists");
+//            }
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+
     public void appendFile(java.io.File fileName, String appendToFile) {
         try (FileWriter write = new FileWriter(fileName, true)) {
             BufferedWriter buffer = new BufferedWriter(write);
             PrintWriter writer = new PrintWriter(buffer);
-
-            if (fileName.exists() == false) {
-                fileName.createNewFile();
-                System.out.println("The file has been created");
-
-            } else {
-                System.out.println("File already exists");
-            }
 
             writer.print(appendToFile);
             writer.close();
@@ -50,7 +57,4 @@ public class FileManager {
         }
     }
 
-    public void charCounter(char letter){
-
-    }
 }
