@@ -3,6 +3,7 @@ package com.company;
 import com.company.assignment3.CharacterCounter;
 import com.company.assignment3.FileManager;
 import com.company.day5.LambdaSorts;
+import com.company.day5.SortsPart2;
 import com.company.interfaceShapes.Triangle;
 import com.company.interfaceShapes.iShapes;
 
@@ -34,9 +35,11 @@ public class Main {
 //        files.createFile(testFile);
 
         //Assignment 5
-        LambdaSorts lamb = new LambdaSorts();
+//        LambdaSorts lamb = new LambdaSorts();
 //        lamb.addToList();
 //        lamb.sortByLength();
+        //part2
+        new SortsPart2();
 
 
     }
