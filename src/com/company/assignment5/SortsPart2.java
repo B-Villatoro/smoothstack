@@ -1,4 +1,4 @@
-package com.company.day5;
+package com.company.assignment5;
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;
@@ -45,3 +45,8 @@ public class SortsPart2 {
     }
 
 }
+/*----------------------------Part 2 Questions-----------------*/
+//Which class would you use to store your birthday in years, months, days, seconds, and nanoseconds?
+//LocalDateTime
+//Given a random date, how would you find the date of the previous Thursday?
+//date.with(TemporalAdjuster.previous(DayOfWeek.THURSDAY)))

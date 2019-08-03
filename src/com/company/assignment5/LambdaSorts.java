@@ -1,4 +1,4 @@
-package com.company.day5;
+package com.company.assignment5;
 
 
 import java.util.ArrayList;

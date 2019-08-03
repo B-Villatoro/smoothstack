@@ -1,14 +1,7 @@
 package com.company;
 
-import com.company.assignment3.CharacterCounter;
-import com.company.assignment3.FileManager;
-import com.company.day5.LambdaSorts;
-import com.company.day5.SortsPart2;
-import com.company.interfaceShapes.Triangle;
-import com.company.interfaceShapes.iShapes;
-
-import java.io.File;
-import java.util.Scanner;
+import com.company.assignment4.ProConThread;
+import com.company.assignment5.LambdaSorts;
 
 
 public class Main {
@@ -34,12 +27,19 @@ public class Main {
 //        new CharacterCounter(testFile,'d');
 //        files.createFile(testFile);
 
+        //Assignment 4
+//        new SingletonClass();
+//        new DeadlockExample();
+//        ProConThread pct = new ProConThread();
+
+
+
         //Assignment 5
 //        LambdaSorts lamb = new LambdaSorts();
 //        lamb.addToList();
 //        lamb.sortByLength();
         //part2
-        new SortsPart2();
+//        new SortsPart2();
 
 
     }
