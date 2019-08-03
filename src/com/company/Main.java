@@ -15,7 +15,7 @@ public class Main {
 //        int b = Integer.parseInt(args[1]);
 //        int c = Integer.parseInt(args[2]);
 //        CommandLineAddition addNums = new CommandLineAddition(a,b,c);
-//        Max2dArray findMax = new Max2dArray();
+// gi       Max2dArray findMax = new Max2dArray();
 //        iShapes tritri = new Triangle(24,26,27);
 //        tritri.calculateArea();
 //        tritri.display();
