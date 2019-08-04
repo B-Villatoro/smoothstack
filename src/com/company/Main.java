@@ -2,6 +2,11 @@ package com.company;
 
 import com.company.assignment4.ProConThread;
 import com.company.assignment5.LambdaSorts;
+import com.company.week1.assignment1.LambdaReturns;
+import com.company.week1.assignment2.RightDigit;
+import com.company.week1.assignment3.MultiplyInList;
+import com.company.week1.assignment4.RemoveXFromStrings;
+import com.company.week1.assignment5.GroupSum;
 
 
 public class Main {
@@ -31,8 +36,7 @@ public class Main {
 //        new SingletonClass();
 //        new DeadlockExample();
 //        ProConThread pct = new ProConThread();
-
-
+//        Testing is in package
 
         //Assignment 5
 //        LambdaSorts lamb = new LambdaSorts();
@@ -41,6 +45,11 @@ public class Main {
         //part2
 //        new SortsPart2();
 
+        //Week1
+//        new RightDigit();
+//        new MultiplyInList();
+//        new RemoveXFromStrings();
+//        new GroupSum();
 
     }
 }
